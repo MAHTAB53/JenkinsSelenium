@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="platform" value="local"/>
+  <listeners>
+    <listener class-name="TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="FlightBooking_2_Activity(failed)">
+    <classes>
+      <class name="HomePageModule.FlightBooking_2_Activity">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="closeDriver"/>
+          <include name="FlightBooking_2"/>
+        </methods>
+      </class> <!-- HomePageModule.FlightBooking_2_Activity -->
+    </classes>
+  </test> <!-- FlightBooking_2_Activity(failed) -->
+  <test thread-count="5" name="DocumentRequestActivity(failed)">
+    <classes>
+      <class name="HomePageModule.DocumentRequestActivity">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="DocumentRequest"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- HomePageModule.DocumentRequestActivity -->
+    </classes>
+  </test> <!-- DocumentRequestActivity(failed) -->
+  <test thread-count="5" name="NegativeTest1Activity(failed)">
+    <classes>
+      <class name="HomePageModule.NegativeTest1Activity">
+        <methods>
+          <include name="NegativeTest1Activity"/>
+          <include name="initializeDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- HomePageModule.NegativeTest1Activity -->
+    </classes>
+  </test> <!-- NegativeTest1Activity(failed) -->
+  <test thread-count="5" name="NegativeTest2Activity(failed)">
+    <classes>
+      <class name="HomePageModule.NegativeTest2Activity">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="NegativeTestActivity"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- HomePageModule.NegativeTest2Activity -->
+    </classes>
+  </test> <!-- NegativeTest2Activity(failed) -->
+</suite> <!-- Failed suite [Suite] -->

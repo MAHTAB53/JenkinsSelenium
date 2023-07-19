@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="platform" value="local" />
+<listeners>
+    <listener class-name="TestComponents.Listeners"></listener>
+</listeners>
+
+ <test thread-count="5" name="SearchTest">
+    <classes>
+      <class name="HomePageModule.SearchActivity"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="topdeals">
+    <classes>
+      <class name="HomePageModule.TopDealsActivity"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="AddToCartActivity">
+    <classes>
+      <class name="HomePageModule.AddToCartActivity"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

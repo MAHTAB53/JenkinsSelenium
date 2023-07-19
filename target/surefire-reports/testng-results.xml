@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-19T22:48:38 IST" name="Suite" finished-at="2023-07-19T22:49:02 IST" duration-ms="24009">
+    <groups>
+    </groups>
+    <test started-at="2023-07-19T22:48:38 IST" name="SearchTest" finished-at="2023-07-19T22:48:44 IST" duration-ms="6679">
+      <class name="HomePageModule.SearchActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:HomePageModule.SearchActivity@60856961]" started-at="2023-07-19T22:48:38 IST" name="initializeDriver" finished-at="2023-07-19T22:48:40 IST" duration-ms="2557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="search()[pri:0, instance:HomePageModule.SearchActivity@60856961]" started-at="2023-07-19T22:48:40 IST" name="search" finished-at="2023-07-19T22:48:44 IST" duration-ms="4063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:HomePageModule.SearchActivity@60856961]" started-at="2023-07-19T22:48:44 IST" name="closeDriver" finished-at="2023-07-19T22:48:44 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- HomePageModule.SearchActivity -->
+    </test> <!-- SearchTest -->
+    <test started-at="2023-07-19T22:48:44 IST" name="topdeals" finished-at="2023-07-19T22:48:48 IST" duration-ms="3546">
+      <class name="HomePageModule.TopDealsActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:HomePageModule.TopDealsActivity@2766ca9d]" started-at="2023-07-19T22:48:44 IST" name="initializeDriver" finished-at="2023-07-19T22:48:46 IST" duration-ms="1265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="topdealspage()[pri:0, instance:HomePageModule.TopDealsActivity@2766ca9d]" started-at="2023-07-19T22:48:46 IST" name="topdealspage" finished-at="2023-07-19T22:48:48 IST" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topdealspage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:HomePageModule.TopDealsActivity@2766ca9d]" started-at="2023-07-19T22:48:48 IST" name="closeDriver" finished-at="2023-07-19T22:48:48 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- HomePageModule.TopDealsActivity -->
+    </test> <!-- topdeals -->
+    <test started-at="2023-07-19T22:48:48 IST" name="AddToCartActivity" finished-at="2023-07-19T22:49:02 IST" duration-ms="13517">
+      <class name="HomePageModule.AddToCartActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:HomePageModule.AddToCartActivity@27d4a09]" started-at="2023-07-19T22:48:48 IST" name="initializeDriver" finished-at="2023-07-19T22:48:49 IST" duration-ms="1260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="Addtocart()[pri:0, instance:HomePageModule.AddToCartActivity@27d4a09]" started-at="2023-07-19T22:48:49 IST" name="Addtocart" finished-at="2023-07-19T22:49:02 IST" duration-ms="12235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addtocart -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:HomePageModule.AddToCartActivity@27d4a09]" started-at="2023-07-19T22:49:02 IST" name="closeDriver" finished-at="2023-07-19T22:49:02 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- HomePageModule.AddToCartActivity -->
+    </test> <!-- AddToCartActivity -->
+  </suite> <!-- Suite -->
+</testng-results>
